@@ -1,18 +1,16 @@
 document.body.style.background = "lightgray";
+document.body.style.fontFamily = "Arial, Helvetica, sans-serif;";
 
 
-document.getElementById('password').style.padding="65px";
 
-document.getElementById('generate').style.background="red";
-document.getElementById('generate').style.color="white";
-document.getElementById('generate').style.borderRadius="20px";
-document.getElementById('generate').style.padding="14px";
+document.getElementById('password').setAttribute("style", "margin:auto; width:40%; text-align:center; padding: 65px; font-size: 20px; border-style: dashed; ");
 
-document.getElementById('copy').style.background="grey";
-document.getElementById('copy').style.color="white";
-document.getElementById('copy').style.borderRadius="20px";
-document.getElementById('copy').style.padding="14px";
+document.getElementById('generate').setAttribute("style", "background:red; color:white; border-radius:20px; padding:14px; margin-right: 230px;");
+document.getElementById('copy').setAttribute("style", "background:grey; color:white; border-radius:20px; padding:14px");
 
+document.getElementById('top').setAttribute("style", "text-align: center; color:#353434; ");
+document.getElementById('content').setAttribute("style", "text-align: center; background-color: white; width:50%; margin: auto; padding: 10px;");
+document.getElementById('text').setAttribute("style", "margin-right: 300px; ");
 
 var num = "0123456789";
 var low = "abcdefghijklmnopqrstuvwxyz";
